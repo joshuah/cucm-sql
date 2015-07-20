@@ -1,0 +1,27 @@
+{
+  "name": "cucm-sql",
+  "version": "0.0.1",
+  "description": "CUCM XML SQL API for node.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joshuah/cucm-sql.git"
+  },
+  "keywords": [
+    "cisco",
+    "cucm",
+    "axl"
+  ],
+  "author": "Joshua Heiks",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/joshuah/cucm-sql/issues"
+  },
+  "homepage": "https://github.com/joshuah/cucm-sql",
+  "dependencies": {
+    "xml2js": "^0.4.9"
+  }
+}
