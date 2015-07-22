@@ -1,6 +1,6 @@
 {
   "name": "cucm-sql",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "CUCM XML SQL API for node.",
   "main": "index.js",
   "scripts": {
