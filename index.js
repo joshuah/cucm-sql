@@ -27,8 +27,6 @@ CucmSQLSession.prototype.query = function(SQL, callback) {
 	var options = this._OPTIONS;
 	options.agent = new https.Agent({ keepAlive: false });
 
-console.log(SQL);
-
 	var req = https.request(options, function(res) {
     	res.setEncoding('utf8');
     	res.on('data', function(d) {
